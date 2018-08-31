@@ -14,7 +14,7 @@ a {
 }
 
 .storeListBox {
-    padding: 2em;
+    padding: 1.5em;
     border: 7px solid #ccc;
     display: block;
     width: 33%;
@@ -70,24 +70,24 @@ a {
 
 @keyframes up-bump {
     0% {
-        padding-top: 2em;
-    }
-    50% {
         padding-top: 1.5em;
     }
-    100% {
+    50% {
         padding-top: 2em;
+    }
+    100% {
+        padding-top: 1.5em;
     }
 }
 
 @keyframes down-bump {
     0% {
-        padding-top: 2em;
+        padding-top: 1.5em;
     }
     50% {
-        padding-top: 2.5em;
+        padding-top: 2em;
     }
     100% {
-        padding-top: 2em;
+        padding-top: 1.5em;
     }
 }

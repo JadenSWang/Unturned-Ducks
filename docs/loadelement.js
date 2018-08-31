@@ -1,7 +1,7 @@
 function load(div) {
 
     var x = [
-        "RP_Kits", "PVP_Kits", "Servers", "Mods"];
+        "RP", "PVP", "Servers", "Mods"];
 
     for (var i = 0; i < x.length; i++) {
         document.getElementById(x[i]).style.display = "none";
