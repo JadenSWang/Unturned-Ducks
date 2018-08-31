@@ -1,11 +1,15 @@
 function load(div) {
 
     var x = [
-        "Servers", "Store"];
+        "Home", "Servers", "Store", "Mods"];
 
-    for (var i = 0; i < x.length; i++) {        
+    for (var i = 0; i < x.length; i++) {
         document.getElementById(x[i]).style.display = "none";
     }
 
     console.log(document.getElementById(div).style.display = "block");
 }
+
+window.onload = function () {
+    load('Home');
+};
