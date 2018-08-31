@@ -49,6 +49,10 @@ a {
     color: white;
 }
 
+.storeListBox h3 {
+    color: white;
+}
+
 .storeListBox:hover h3 {
     color: #999;
 }
