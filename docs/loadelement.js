@@ -1,7 +1,7 @@
 function load(div) {
 
     var x = [
-        "Home", "Servers", "Store", "Mods"];
+        "RP_Kits", "PVP_Kits", "Servers", "Mods"];
 
     for (var i = 0; i < x.length; i++) {
         document.getElementById(x[i]).style.display = "none";
@@ -10,7 +10,7 @@ function load(div) {
     console.log(document.getElementById(div).style.display = "block");
 }
 
-window.onload = load('Home');
+window.onload = load('Servers');
 
 function copyIP() {
     var copyText = document.getElementById("ip");
