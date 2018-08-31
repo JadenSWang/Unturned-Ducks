@@ -5,7 +5,12 @@
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/homePage.css" />
     <link rel="stylesheet" href="css/serverpopup.css" />
+    <link rel="stylesheet" href="css/storepopup.css" />
     <title>UnturnedDucks Official</title>
+
+    <div id=clipboard>
+        <input type="text" value="72.66.106.218" id="ip">
+    </div>
 </head>
 
 <body>
@@ -26,32 +31,79 @@
         <a href="#" onclick="load('Mods')">
             Mods
         </a>
+
+        <a href="https://github.com/JadenSWang/UnturnedDucks">
+            Github
+        </a>
     </div>
 
     <div class="main">
         <!--Home -->
         <div id="Home">
-            
 
         </div>
 
         <!--Store -->
         <div id="Store">
+            <h1>RP Kits</h1>
 
+            <a href="#" class="storeListBox">
+                <h2>$12.99 SWAT Juggernaut Kit</h2>
+                <h3>Contains:</h3>
+                <h4>1x SWAT Jumpsuit Top<br/>
+                    1x SWAT Jumpsuit Bottom<br/>
+                    1x SWAT Juggernaut Helmet<br/>
+                    1x SWAT Juggernaut Mask<br/>
+                    1x SWAT Juggernaut Vest<br/>
+                    1x Riot Shield<br/><br/>
+                    1x FLKN-017 LMG<br/>
+                    1x PNC-8K Box<br/>
+                    1x K4T-69 Ghost<br/>
+                    5x K4T-69 Magazine<br/>
+                    1x Tactical Laser<br/>
+                </h4>
+                <h4></h4>
+            </a>
+            <a href="#" class="storeListBox">
+                <h2>$7.99 M4 Assault Kit</h2>
+                <h3>Contains:</h3>
+                <h4>1x M4A1 <br/>
+                    4x M4A1 Magazine <br/>
+                    1x Vertical Grip (Modded) <br/>
+                    1x 5x Scope<br/>
+                    1x Laser<br/>
+                    1x Suppressor<br/><br/>
+
+                    1x USP 45 
+                    5x USP 45 Magazine <br/>
+                    1x Suppressor (Modded) <br/>
+                    1x Tactical Light (Modded) <br/>
+                    1x Spec Ops Beret <br/>
+                    1x Spec Ops Top <br/>
+                    1x Spec Ops Vest <br/>
+                    1x Spec Ops Bottom <br/>
+                    1x Spec Ops Pack</h4>
+            </a>
+            <a href="#" class="storeListBox">
+                <h2>$1.99 SAR Kit</h2>
+                <h3>Contains:</h3>
+                <h4>1x Sar-21 5x Sar-21 Magazine 1x Vertical Grip 1x Tactical Laser Cooldown: 20 Minutes Experience: 500</h4>
+                <h4></h4>
+            </a>
         </div>
 
         <!--Server Lists -->
         <div id="Servers">
             <h1>Unturned Ducks Servers</h1>
 
-            <a href="#" class="box">
-              <h2>US#1 UnturnedShmucks</h2>
-              <h3>Modded/3x/PVP/SemiVanilla</h3>
-              <h4>IP: 72.66.106.218</h4>
-              <h4>Port: 27015</h4>
+            <a href="javascript:copyIP();" class="serverListBox">
+                <h2>US#1 UnturnedDucks - PVP</h2>
+                <h3>Modded/3x/PVP/SemiVanilla</h3>
+                <h4>IP: 72.66.106.218</h4>
+                <h4>Port: 27015</h4>
             </a>
-            <a href="#" class="box">
-                <h2>US#2 UnturnedShmucks</h2>
+            <a href="javascript:copyIP();" class="serverListBox">
+                <h2>US#2 UnturnedDucks - SemiRP</h2>
                 <h3>Modded/3x/SemiRP/SemiVanilla</h3>
                 <h4>IP: 72.66.106.218</h4>
                 <h4>Port: 25444</h4>
@@ -64,9 +116,6 @@
         </div>
     </div>
 </body>
-
-
-
 <script src="loadelement.js"></script>
 
 </html>

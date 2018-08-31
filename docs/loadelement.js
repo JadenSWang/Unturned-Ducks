@@ -11,3 +11,10 @@ function load(div) {
 }
 
 window.onload = load('Home');
+
+function copyIP() {
+    var copyText = document.getElementById("ip");
+    copyText.select();
+    document.execCommand("copy");
+    alert("IP Copied To Clipboard");
+}

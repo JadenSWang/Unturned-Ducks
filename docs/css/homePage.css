@@ -1,10 +1,18 @@
 /*main*/
 
 body {
-    padding-top: 10%;
+    padding-top: -5%;
     background-color: #2a2a30;
     color: white;
     margin-left: 10%;
     margin-right: 10%;
     font-family: 'Verdana';
+}
+
+.main {
+    padding-top: 5%;
+}
+
+.clipboard {
+    padding-top: -10000%;
 }
