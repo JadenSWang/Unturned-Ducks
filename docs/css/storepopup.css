@@ -15,14 +15,14 @@ a {
 
 .storeListBox {
     padding: 2em;
-    border: 1px solid #ccc;
+    border: 7px solid #ccc;
     display: block;
     width: 33%;
     height: 30em;
     float: left;
     margin: -1px 0 0 -1px;
     color: black;
-    background: linear-gradient( white, white 50%, #333 50%, #333);
+    background: linear-gradient(white, white 50%, #333 50%, #333);
     background-size: 100% 200%;
     transition: all 0.2s ease;
     animation: down-bump 0.4s ease;

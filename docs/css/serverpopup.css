@@ -14,7 +14,7 @@ a {
 
 .serverListBox {
     padding: 2em;
-    border: 1px solid #ccc;
+    border: 7px solid #ccc;
     display: block;
     width: 50%;
     height: 300px;
@@ -39,7 +39,7 @@ a {
 }
 
 .serverListBox:hover h2 {
-    color: #48ad26;
+    color: yellow;
 }
 
 .serverListBox:hover h2 span {
@@ -52,6 +52,22 @@ a {
 
 .serverListBox h4 {
     color: white;
+}
+
+.serverListBox online {
+    color: white;
+}
+
+.serverListBox:hover online{
+    color: #48ad26;
+}
+
+.serverListBox offline {
+    color: white;
+}
+
+.serverListBox:hover offline {
+    color: red;
 }
 
 @keyframes up-bump {
