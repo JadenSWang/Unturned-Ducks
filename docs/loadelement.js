@@ -10,6 +10,4 @@ function load(div) {
     console.log(document.getElementById(div).style.display = "block");
 }
 
-window.onload = function () {
-    load('Home');
-};
+window.onload = load('Home');
