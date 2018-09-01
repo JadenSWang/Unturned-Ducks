@@ -12,9 +12,10 @@ function load(div) {
 
 window.onload = load('Servers');
 
-function copyIP() {
+function copy(toCopy) {
+    document.getElementById('ip').vaule = toCopy
     var copyText = document.getElementById("ip");
     copyText.select();
     document.execCommand("copy");
-    alert("IP Copied To Clipboard");
+    alert("Port: " + copyText.value +  " Copied To Clipboard");
 }
