@@ -1,17 +1,12 @@
 /*main*/
 
-body {
-    padding-top: 2%;
-    padding-bottom: 5%;
+body, html{
+    padding-top: 1%;
     background-color: #2a2a30;
     color: white;
-    margin-left: 10%;
-    margin-right: 10%;
     font-family: 'Verdana';
-}
-
-.main {
-    
+    height: 100%;
+    margin: 0;
 }
 
 #Footer {
@@ -20,4 +15,18 @@ body {
 
 #clipboard {
     visibility: hidden;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../UnturnedSummerImage.JPG");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
