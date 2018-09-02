@@ -13,7 +13,7 @@ function load(div) {
 window.onload = load('Servers');
 
 function copy(toCopy) {
-    document.getElementById('ip').vaule = toCopy
+    document.getElementById('ip').value = toCopy
     var copyText = document.getElementById("ip");
     copyText.select();
     document.execCommand("copy");
