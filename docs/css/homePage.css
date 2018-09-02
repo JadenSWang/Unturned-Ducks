@@ -34,3 +34,8 @@ body, html{
 
     z-index: 1;
 }
+
+#boxLayout{
+    margin-left: 10%;
+    margin-right: 10%;
+}
