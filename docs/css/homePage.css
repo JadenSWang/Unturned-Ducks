@@ -51,16 +51,16 @@ body, html{
     left: 55%;
     width: 40%;
 
-    animation: logoDucks 2.2s ease-out;
+    animation: logoDucks 2.4s ease-out;
 }
 
 .logoOfficial {
     position: absolute;
     top: 23%;
-    left: 40%;
+    left: 42%;
     width: 40%;
     
-    animation: logoOfficial 2.2s ease-out;
+    animation: logoOfficial 2.4s ease-out;
 }
 
 @keyframes logoUnturned {
