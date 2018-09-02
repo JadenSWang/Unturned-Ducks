@@ -25,7 +25,7 @@ a {
     background: linear-gradient( white, white 50%, #333 50%, #333);
     background-size: 100% 200%;
     transition: all 0.2s ease;
-    animation: down-bump 0.4s ease;
+    animation: down-bump 0.7s ease;
 }
 
 .serverListBox h2 {
