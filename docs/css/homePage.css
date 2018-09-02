@@ -40,9 +40,9 @@ body, html{
     top: 12%;
     left: 27%;
     z-index: 5;
-    height: 80%;
+    height: 65%;
 
-    animation: logoUnturned 2.2s ease-out;
+    animation: logoUnturned 3.4s ease-out;
 }
 
 .logoDucks {
