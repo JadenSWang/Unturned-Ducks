@@ -1,17 +1,12 @@
 /*main*/
 
-body {
-    padding-top: 2%;
-    padding-bottom: 5%;
+body, html{
+    padding-top: 1%;
     background-color: #2a2a30;
     color: white;
-    margin-left: 10%;
-    margin-right: 10%;
     font-family: 'Verdana';
-}
-
-.main {
-    
+    height: 100%;
+    margin: 0;
 }
 
 #Footer {
@@ -20,4 +15,100 @@ body {
 
 #clipboard {
     visibility: hidden;
+}
+
+.container {
+    /* The image used */
+    background-image: url("../images/UnturnedSummerImage.JPG");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+    position: relative;
+
+    z-index: 1;
+}
+
+.logoUnturned {
+    position: absolute;
+    top: 12%;
+    left: 27%;
+    z-index: 5;
+    height: 50%;
+
+    animation: logoUnturned 1.2s ease-out;
+}
+
+.logoDucks {
+    position: absolute;
+    top: 11.5%;
+    left: 55%;
+    width: 40%;
+
+    animation: logoDucks 2.4s ease-out;
+}
+
+.logoOfficial {
+    position: absolute;
+    top: 23%;
+    left: 42%;
+    width: 40%;
+    
+    animation: logoOfficial 2.4s ease-out;
+}
+
+@keyframes logoUnturned {
+    0% {
+        transform: translateY(200%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes logoDucks {
+    20% {
+        transform: translateX(300%);
+    }
+
+    60% {
+        transform: translateX(110%); 
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes logoOfficial {
+    0%{
+        transform: translateX(200%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+#boxLayout{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#overlayContainer {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+
+    text-align: center;
+    z-index: 2;
+    font-size: 375%;
+    color: #B22222	;
 }
