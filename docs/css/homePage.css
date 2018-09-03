@@ -35,32 +35,58 @@ body, html{
     z-index: 1;
 }
 
-.logoUnturned {
-    position: absolute;
-    top: 12%;
-    left: 27%;
-    z-index: 5;
-    height: 65%;
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
-    animation: logoUnturned 3.4s ease-out;
+.col-1 {width: 6.66;}
+.col-2 {width: 13.33%;}
+.col-3 {width: 20%;}
+.col-4 {width: 26.66%;}
+.col-5 {width: 33.32%;}
+.col-6 {width: 40%;}
+.col-7 {width: 46.66%;}
+.col-8 {width: 53.32%;}
+.col-9 {width: 60%;}
+.col-9-5{width: 63.33%;}
+.col-10 {width: 66.66%;}
+.col-11 {width: 73.32%;}
+.col-12 {width: 80%;}
+.col-13 {width: 86.66%;}
+.col-14 {width: 93.32%;}
+.col-15 {width: 99.98%;}
+
+[class*="col-"] {
+    float: left;
+    /* border: 0.5px solid red; */
+}
+
+#logo {
+    padding-top: 7%;
+}
+
+.logoUnturned {
+    position: relative;
+    float: right;
+    z-index: 5;
+
+    animation: logoUnturned 2s ease-out;
 }
 
 .logoDucks {
-    position: absolute;
-    top: 11.5%;
-    left: 55%;
-    width: 40%;
+    position: relative;
+    float: left;
 
-    animation: logoDucks 3.4s ease-out;
+    animation: logoDucks 2s ease-out;
 }
 
 .logoOfficial {
-    position: absolute;
-    top: 23%;
-    left: 42%;
-    width: 40%;
-    
-    animation: logoOfficial 3.4s ease-out;
+    position: relative;
+    float: right;
+
+    animation: logoOfficial 2s ease-out;
 }
 
 @keyframes logoUnturned {
@@ -76,10 +102,6 @@ body, html{
 @keyframes logoDucks {
     0% {
         transform: translateX(300%);
-    }
-
-    60% {
-        transform: translateX(110%); 
     }
 
     100% {
