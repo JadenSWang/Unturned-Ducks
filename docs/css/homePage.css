@@ -1,9 +1,8 @@
 /*main*/
 
 body, html {
-    padding-top: 1%;
-    background-color: #2a2a30;
-    color: white;
+    background-color: white;
+    color: #2a2a30;
     font-family: 'Verdana';
     height: 100%;
     margin: 0;
@@ -81,6 +80,7 @@ body, html {
 }
 
 #logoOfficial {
+    top: 7px;
     grid-column: 18/23;
     grid-row: 3;
     position: relative;
@@ -141,4 +141,35 @@ body, html {
 
 ::-webkit-scrollbar-thumb {
     background: #2a2a30;
+}
+
+/* Butotns */
+.button {
+    border: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 120%;
+    margin: 4px 2px;
+}
+
+.donateButton {
+    background-color: #4CAF50;  
+    color: white;
+    border-radius: 50%/100%;  
+}
+
+.discordButton {
+    background-color: #4CAF50;  
+    color: white;
+    border-radius: 30%/100%;  
+}
+
+.serverButton {
+    color: white;
+    border-radius: 45%/100%;
 }
