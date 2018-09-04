@@ -1,0 +1,76 @@
+body, html {
+    background-color: white;
+    color: #2a2a30;
+    font-family: 'Verdana';
+    height: 100%;
+    margin: 0;
+}
+
+#layout {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: repeat(20, 5%);
+    grid-template-columns: repeat(40, 2.5%);
+}
+
+#overlayContainer {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    text-align: center;
+    z-index: 2;
+    font-size: 375%;
+    color: #B22222;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes -webkit-animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes -moz-animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes -ms-animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/* Custom Scrollbar */
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: #23272a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2a2a30;
+}
+
