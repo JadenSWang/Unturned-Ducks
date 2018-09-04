@@ -1,0 +1,178 @@
+/*main*/
+
+#clipboard {
+    visibility: visible;
+}
+
+#logoUnturned {
+    grid-column: 12/22;
+    grid-row: 3;
+    position: relative;
+    float: right;
+    animation: logoUnturned 2.33s ease-out;
+}
+
+#logoDucks {
+    grid-column: 22/29;
+    grid-row: 3;
+    position: relative;
+    float: left;
+    animation: logoDucks 2.33s ease-out;
+}
+
+#logoOfficial {
+    top: 7px;
+    grid-column: 18/23;
+    grid-row: 5;
+    position: relative;
+    float: right;
+    animation: logoOfficial 2.33s ease-out;
+}
+
+@keyframes logoUnturned {
+    0% {
+        transform: translateY(200%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes logoDucks {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes logoOfficial {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+/* Butotns */
+
+.button {
+    padding-top: 1.5vw;
+    font-size: 1vw;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 120%;
+    margin-top: 8%;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.donateButton {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    border-radius: 30%/100%;
+    grid-row: 11/13;
+    grid-column: 10/15;
+    animation: donateButton 1.33s ease-out;
+}
+
+@keyframes donateButton {
+    0% {
+        transform: translateY(1000%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.discordButton {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    border-radius: 30%/100%;
+    grid-row: 11/13;
+    grid-column: 16/21;
+    animation: discordButton 1.66s ease-out;
+}
+
+@keyframes discordButton {
+    0% {
+        transform: translateY(1000%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.serverButton {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    border-radius: 30%/100%;
+    grid-row: 11/13;
+    grid-column: 22/27;
+    animation: serverButton 2s ease-out;
+}
+
+@keyframes serverButton {
+    0% {
+        transform: translateY(1000%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.githubButton {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    border-radius: 30%/100%;
+    grid-row: 11/13;
+    grid-column: 28/33;
+    animation: githubButton 2.33s ease-out;
+}
+
+@keyframes githubButton {
+    0% {
+        transform: translateY(1000%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+/* background */
+
+.container {
+    /* The image used */
+    background-image: url("images/UnturnedSummerImage.JPG");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    animation: fadein 2s;
+}

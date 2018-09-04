@@ -3,6 +3,7 @@
 }
 
 h1 {
+    padding-top: 3%;
     color: #7289da;
     align-content: center;
 }
@@ -13,16 +14,21 @@ a {
     text-decoration: none;
 }
 
+#boxLayout {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .storeListBox {
     padding: 1.5em;
-    border: 7px solid #ccc;
+    border: 7px transparent;
     display: block;
     width: 33%;
     height: 30em;
     float: left;
     margin: -1px 0 0 -1px;
     color: black;
-    background: linear-gradient(white, white 50%, #333 50%, #333);
+    background: linear-gradient(transparent, transparent 50%, #333 50%, #333);
     background-size: 100% 200%;
     transition: all 0.2s ease;
     animation: down-bump 0.7s ease;
@@ -90,4 +96,24 @@ a {
     100% {
         padding-top: 1.5em;
     }
+}
+
+/* background */
+body {
+    margin-top: 1%;
+    /* The image used */
+    background-image: url("../images/UnturnedWashington.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    animation: fadein 2s;
 }
