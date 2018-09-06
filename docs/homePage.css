@@ -1,4 +1,11 @@
 /*main*/
+html {
+    background-color: white;
+    color: #2a2a30;
+    font-family: 'Verdana';
+    height: 100%;
+    margin: 0;
+}
 
 #clipboard {
     visibility: visible;
@@ -59,7 +66,7 @@
 /* Butotns */
 
 .button {
-    padding-top: 1.5vw;
+    padding-top: 1.25vw;
     font-size: 1vw;
     border: none;
     text-align: center;
