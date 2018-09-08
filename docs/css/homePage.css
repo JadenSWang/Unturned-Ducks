@@ -168,7 +168,7 @@ html {
 
 .container {
     /* The image used */
-    background-image: url("images/UnturnedSummerImage.JPG");
+    background-image: url("../images/UnturnedSummerImage.JPG");
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
