@@ -4,7 +4,7 @@
 
 h1 {
     padding-top: 3%;
-    color: #7289da;
+    color: white;
     align-content: center;
 }
 
@@ -28,7 +28,7 @@ a {
     float: left;
     margin: -1px 0 0 -1px;
     color: black;
-    background: linear-gradient(white, transparent 50%, #333 50%, #333);
+    background: linear-gradient(grey, transparent 50%, #333 50%, #333);
     background-size: 100% 200%;
     transition: all 0.2s ease;
     animation: down-bump 0.7s ease;
@@ -116,4 +116,5 @@ body {
     -moz-animation: fadein 2s;
     -ms-animation: fadein 2s;
     animation: fadein 2s;
+    padding-bottom: 3%;
 }
