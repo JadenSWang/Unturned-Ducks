@@ -1,452 +1,570 @@
-<!Doctype HTML>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/storepopup.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>UnturnedDucks Official</title>
+<link rel="stylesheet" href="css/navbar.css" />
+<link rel="stylesheet" href="css/storepopup.css" />
+<link rel="stylesheet" href="css/style.css" />
+<title>UnturnedDucks Official</title>
 
-    <style>
-
-    </style>
+<style>
+</style>
 
 </head>
 
 <body>
-    <!-- Navbar -->
-    <div class="topbar">
-        <a href="index.html">
-            Home
-        </a>
-
-        <a href="servers.html">
-            Servers
-        </a>
-
-        <a href="rp.html">
-            Kits
-        </a>
-
-        <a href="https://github.com/JadenSWang/UnturnedDucks">
-            Github
-        </a>
-
-        <a href="https://discord.gg/kfJAcmW">
-            Discord
-        </a>
-    </div>
-
-    <!--RP Kits -->
-    <div id="boxLayout">
-        <div id="RP">
-            <h1>RP Kits - NOTE: You MUST send duck in the discord your steam64 to get your kits!
-                A 50% discount will be applied to ALL items at checkout!
-            </h1>
-
-            <a href="javascript:nothing()" class="storeListBox">
-                <h2>$7.95 SWAT Juggernaut Kit</h2>
-                <h4>1x SWAT Jumpsuit Top<br /> 1x SWAT Jumpsuit Bottom<br /> 1x SWAT Juggernaut Helmet<br /> 1x SWAT
-                    Juggernaut
-                    Mask
-                    <br /> 1x SWAT Juggernaut Vest<br /> 1x Riot Shield<br /><br /> 1x FLKN-017 LMG<br /> 1x PNC-8K Box<br />
-                    1x
-                    K4T-69 Ghost
-                    <br /> 5x K4T-69 Magazine<br /> 1x Tactical Laser<br />
-                </h4>
-
-                <h5>Cooldown: 60 Minutes<br /> Experience: 500
-                </h5>
-
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-
-                    <!-- Identify your business so that you can collect the payments. -->
-                    <input type="hidden" name="business" value="jaden.shiteng.wang@gmail.com">
-
-                    <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="add" value="1">
-
-                    <!-- Specify details about the item that buyers will purchase. -->
-                    <input type="hidden" name="item_name" value="SWAT Juggernaut Kit">
-                    <input type="hidden" name="amount" value="7.95">
-                    <input type="hidden" name="currency_code" value="USD">
-
-                    <!-- Display the payment button. -->
-                    <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                        alt="Add to Cart">
-                    <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-
-                    <!--Discounts-->
-
-                </form>
-            </a>
-
-            <a href="javascript:nothing()" class="storeListBox">
-                <h2>$2.95 M4 Assault Kit</h2>
-                <h4>1x M4A1<br /> 4x M4A1 Magazine<br /> 1x Vertical Grip (Modded)<br /> 1x 5x Scope<br /> 1x Laser<br />
-                    1x Suppressor
-                    <br />
-                    <br /> 1x Spec Ops Beret<br /> 1x Spec Ops Top<br /> 1x Spec Ops Vest<br /> 1x Spec Ops Bottom<br />
-                    1x Spec
-                    Ops Pack
-                    <br />
-                </h4>
-
-                <h5>Cooldown: 45 Minutes<br /> Experience: 500
-                </h5>
-
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-
-                    <!-- Identify your business so that you can collect the payments. -->
-                    <input type="hidden" name="business" value="jaden.shiteng.wang@gmail.com">
-
-                    <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="add" value="1">
-
-                    <!-- Specify details about the item that buyers will purchase. -->
-                    <input type="hidden" name="item_name" value="M4 Assault Kit">
-                    <input type="hidden" name="amount" value="2.95">
-                    <input type="hidden" name="currency_code" value="USD">
-
-                    <!-- Display the payment button. -->
-                    <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                        alt="Add to Cart">
-                    <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-
-                    <!--Discounts-->
+	<!-- Navbar -->
+	<div class="topbar">
+		<a href="index.html"> Home </a> <a href="servers.html"> Servers </a> <a
+			href="rp.html"> Kits </a> <a
+			href="https://github.com/JadenSWang/UnturnedDucks"> Github </a> <a
+			href="https://discord.gg/kfJAcmW"> Discord </a>
+	</div>
+
+	<!--RP Kits -->
+	<div class="header">
+
+		<h2>Donate to your favorite Unturned Server!</h2>
+
+		<h3>Here you can support the server while getting an edge on
+			other survivors!</h3>
+		<h3>Thank you to everybody who has supported us so far! If you
+			have any suggestions or comments to make UnturnedDucks better, we
+			will always listen and love to hear feedback!</h3>
+
+		<h4>Q: When will I get my rewards?</h4>
+		<h5>A: Once Duck receives your steam64 id, rewards are activated
+			in less than one minute across all UnturnedDucks servers.</h5>
+		</br>
+		<h4>Q: How can I find my Steam64 Link?</h4>
+		<h5>
+			A: Copy your steam link <a href="https://steamid.io">here</a> and
+			copy the number after ID:
+		</h5>
+	</div>
+
+	<button class="collapsible">Premium Kits</button>
+	<div class="content">
+		<a href="javascript:nothing()" class="storeListBox">
+			<h2>$2.95 Sniper Kit</h2>
+			<h4>
+				1x Longhunter <br /> 5x Longhunter .375 Magazine<br /> <br /> 1x
+				Longhunter Bipod <br /> 1x Longhunter Barrel <br /> 1x Longhunter
+				Suppressor <br /> 1x Longhunter 24x Nightvision Scope<br /> 1x
+				Rangefinder<br />
+			</h4>
+
+			<h5>
+				Cooldown: 20 Minutes<br /> Experience: 200
+			</h5>
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+				method="post">
+				<!-- Identify your business so that you can collect the payments. -->
+				<input type="hidden" name="business"
+					value="jaden.shiteng.wang@gmail.com">
+
+				<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+				<input type="hidden" name="cmd" value="_cart"> <input
+					type="hidden" name="add" value="1">
+
+				<!-- Specify details about the item that buyers will purchase. -->
+				<input type="hidden" name="item_name" value="Remington Kit">
+				<input type="hidden" name="amount" value="0.49"> <input
+					type="hidden" name="currency_code" value="USD">
+
+				<!-- Display the payment button. -->
+				<input type="image" name="submit"
+					src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+					alt="Add to Cart"> <img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+				<!--Discounts-->
+
+			</form>
+		</a> <a href="javascript:nothing()" class="storeListBox">
+			<h2>$7.95 SWAT Juggernaut Kit</h2>
+			<h4>
+				1x SWAT Juggernaut Top<br /> 1x SWAT Juggernaut Bottom<br /> 1x
+				SWAT Juggernaut Helmet<br /> 1x SWAT Juggernaut Mask <br /> 1x
+				SWAT Juggernaut Vest<br /> 1x Riot Shield<br /> <br /> 1x
+				FLKN-017 LMG<br /> 1x PNC-8K Box<br /> 1x K4T-69 Ghost <br /> 5x
+				K4T-69 Magazine<br /> 1x Tactical Laser<br />
+			</h4>
+
+			<h5>
+				Cooldown: 60 Minutes<br /> Experience: 500
+			</h5>
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+				method="post">
+
+				<!-- Identify your business so that you can collect the payments. -->
+				<input type="hidden" name="business"
+					value="jaden.shiteng.wang@gmail.com">
+
+				<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+				<input type="hidden" name="cmd" value="_cart"> <input
+					type="hidden" name="add" value="1">
+
+				<!-- Specify details about the item that buyers will purchase. -->
+				<input type="hidden" name="item_name" value="SWAT Juggernaut Kit">
+				<input type="hidden" name="amount" value="7.95"> <input
+					type="hidden" name="currency_code" value="USD">
+
+				<!-- Display the payment button. -->
+				<input type="image" name="submit"
+					src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+					alt="Add to Cart"> <img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+			</form>
+		</a> <a href="javascript:nothing()" class="storeListBox">
+			<h2>$2.95 SAS Kit</h2>
+			<h4>
+				1x MS.CMG-01 (Assault Rifle)<br /> 5x MS.CMG-01 Magazine<br /> <br />
+				1x MS PMG-16 (Automatic DMR)<br /> 3x MS PMG-16 Magazine<br /> <br />
+				1x SAS Top<br /> 1x SAS Bottom<br /> 1x SAS Hood<br /> 1x SAS
+				Mask<br /> 1x SAS Vest<br />
+			</h4>
+
+			<h5>
+				Cooldown: 45 Minutes<br /> Experience: 500
+			</h5>
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+				method="post">
+				<!-- Identify your business so that you can collect the payments. -->
+				<input type="hidden" name="business"
+					value="jaden.shiteng.wang@gmail.com">
+
+				<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+				<input type="hidden" name="cmd" value="_cart"> <input
+					type="hidden" name="add" value="1">
+
+				<!-- Specify details about the item that buyers will purchase. -->
+				<input type="hidden" name="item_name" value="SAS Kit"> <input
+					type="hidden" name="amount" value="2.95"> <input
+					type="hidden" name="currency_code" value="USD">
+
+				<!-- Display the payment button. -->
+				<input type="image" name="submit"
+					src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+					alt="Add to Cart"> <img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+				<!--Discounts-->
+
+			</form>
+		</a>
+	</div>
+
+	<button class="collapsible">Most Popular</button>
+	<div class="content">
+		<a href="javascript:nothing()" class="storeListBox">
+			<h2>$2.95 M4 Assault Kit</h2>
+			<h4>
+				1x M4A1<br /> 4x M4A1 Magazine<br /> 1x Vertical Grip (Modded)<br />
+				1x 5x Scope<br /> 1x Laser<br /> 1x Suppressor <br /> <br /> 1x
+				Spec Ops Beret<br /> 1x Spec Ops Top<br /> 1x Spec Ops Vest<br />
+				1x Spec Ops Bottom<br /> 1x Spec Ops Pack <br />
+			</h4>
+
+			<h5>
+				Cooldown: 45 Minutes<br /> Experience: 500
+			</h5>
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+				method="post">
+
+				<!-- Identify your business so that you can collect the payments. -->
+				<input type="hidden" name="business"
+					value="jaden.shiteng.wang@gmail.com">
+
+				<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+				<input type="hidden" name="cmd" value="_cart"> <input
+					type="hidden" name="add" value="1">
+
+				<!-- Specify details about the item that buyers will purchase. -->
+				<input type="hidden" name="item_name" value="M4 Assault Kit">
+				<input type="hidden" name="amount" value="2.95"> <input
+					type="hidden" name="currency_code" value="USD">
+
+				<!-- Display the payment button. -->
+				<input type="image" name="submit"
+					src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+					alt="Add to Cart"> <img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+			</form>
+		</a> <a href="javascript:nothing()" class="storeListBox">
+			<h2>$0.49 SAR Kit</h2>
+			<h4>
+				1x Sar-21 <br /> 5x Sar-21 Magazine<br /> <br /> 1x Vertical Grip<br />
+				1x Tactical Laser<br /> <br /> 1x Spec Ops Vest
+			</h4>
+
+			<h5>
+				Cooldown: 20 Minutes<br /> Experience: 200
+			</h5>
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+				method="post">
+				<!-- Identify your business so that you can collect the payments. -->
+				<input type="hidden" name="business"
+					value="jaden.shiteng.wang@gmail.com">
+
+				<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+				<input type="hidden" name="cmd" value="_cart"> <input
+					type="hidden" name="add" value="1">
+
+				<!-- Specify details about the item that buyers will purchase. -->
+				<input type="hidden" name="item_name" value="SAR Kit"> <input
+					type="hidden" name="amount" value="0.49"> <input
+					type="hidden" name="currency_code" value="USD">
+
+				<!-- Display the payment button. -->
+				<input type="image" name="submit"
+					src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+					alt="Add to Cart"> <img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+				<!--Discounts-->
+
+			</form>
+		</a> <a href="javascript:nothing()" class="storeListBox">
+			<h2>$0.49 SCAR-L Kit</h2>
+			<h4>
+				1x Scar-L <br /> 5x Scar-L Magazine<br /> <br /> 1x Vertical Grip<br />
+				1x Tactical Laser<br /> <br /> 1x Spec Ops Vest
+			</h4>
+
+			<h5>
+				Cooldown: 20 Minutes<br /> Experience: 200
+			</h5>
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+				method="post">
+				<!-- Identify your business so that you can collect the payments. -->
+				<input type="hidden" name="business"
+					value="jaden.shiteng.wang@gmail.com">
+
+				<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+				<input type="hidden" name="cmd" value="_cart"> <input
+					type="hidden" name="add" value="1">
+
+				<!-- Specify details about the item that buyers will purchase. -->
+				<input type="hidden" name="item_name" value="Scar-L Kit"> <input
+					type="hidden" name="amount" value="0.49"> <input
+					type="hidden" name="currency_code" value="USD">
+
+				<!-- Display the payment button. -->
+				<input type="image" name="submit"
+					src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+					alt="Add to Cart"> <img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+				<!--Discounts-->
+
+			</form>
+		</a>
+	</div>
+
+	<button class="collapsible">Permanent VIP</button>
+	<div class="content">
+		<a href="javascript:nothing()" class="storeListBoxWide">
+			<h2>$14.95 VIP Permanent Upgrade</h2>
+			<h4>
+				Contains: /v - Ability to spawn any vehicle in the game (cooldown 2
+				hours)<br /> /day - Ability to change time to day (cooldown 10
+				minutes)<br /> /night - Ability to change time to night (cooldown
+				10 minutes)<br /> /airdrop - Ability to call in an Airdrop at a
+				moment's notice (cooldown 30 minutes)<br /> /heal - Ability to heal
+				yourself or any others {Health, Food, Water, Immunity} (cooldown 15
+				minutes)<br /> /exit - Ability to bypass the 10 second exit timer<br />
+				<br /> /vip1 - RPK<br /> /vip2 - AK12<br /> /vip3 - HK433<br />
+				<br /> /kit Sentry - 2 Sentry Turrets of every Category (6 total)
+				(cooldown 120Minutes)<br /> /kit Mods - Assortment of Attachments
+				(cooldown 60 minutes)<br /> /kit Backpack - Toxicity Mercenary
+				Alicepack (cooldown 30 minutes)<br /> /kit Gasmask - 1 Gasmask and
+				3 Filters for your radiation exposing desires (30 minutes)<br />
+			</h4>
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+				method="post">
+				<!-- Identify your business so that you can collect the payments. -->
+				<input type="hidden" name="business"
+					value="jaden.shiteng.wang@gmail.com">
+
+				<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+				<input type="hidden" name="cmd" value="_cart"> <input
+					type="hidden" name="add" value="1">
+
+				<!-- Specify details about the item that buyers will purchase. -->
+				<input type="hidden" name="item_name" value="VIP Rank"> <input
+					type="hidden" name="amount" value="0.49"> <input
+					type="hidden" name="currency_code" value="USD">
+
+				<!-- Display the payment button. -->
+				<input type="image" name="submit"
+					src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+					alt="Add to Cart"> <img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+				<!--Discounts-->
+
+			</form>
+		</a>
+	</div>
+
+	<button class="collapsible">Builder Kits</button>
+	<div class="content"></div>
+
+	<button class="collapsible">Vehicle Kits</button>
+	<div class="content">
+		<a href="javascript:nothing()" class="storeListBox">
+			<h2>$1.45 Bicopter Kit [VEHICLE]</h2>
+
+			<h4>
+				1x SAS Hyper Bicopter<br /> <br /> 1x HMG Box<br /> 1x Industiral
+				Gas Can<br /> 1x Blowtorch<br />
+
+			</h4>
+
+			<h5>
+				Cooldown: 12 hours<br /> Experience: 500
+			</h5>
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+				method="post">
+				<!-- Identify your business so that you can collect the payments. -->
+				<input type="hidden" name="business"
+					value="jaden.shiteng.wang@gmail.com">
+
+				<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+				<input type="hidden" name="cmd" value="_cart"> <input
+					type="hidden" name="add" value="1">
+
+				<!-- Specify details about the item that buyers will purchase. -->
+				<input type="hidden" name="item_name" value="Bicopter Kit [VEHICLE]">
+				<input type="hidden" name="amount" value="1.45"> <input
+					type="hidden" name="currency_code" value="USD">
+
+				<!-- Display the payment button. -->
+				<input type="image" name="submit"
+					src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+					alt="Add to Cart"> <img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+				<!--Discounts-->
+
+			</form>
+		</a> <a href="javascript:nothing()" class="storeListBox">
+			<h2>$2.45 Littlebird Attack Helicopter [VEHICLE]</h2>
+
+			<h4>
+				1x Littlebird Attack Helicopter<br /> <br /> 1x 20mm Ammunition<br />
+				1x Indsutrial Gas Can<br /> 1x Blowtorch<br />
+
+			</h4>
+
+			<h5>
+				Cooldown: 12 hours<br /> Experience: 500
+			</h5>
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+				method="post">
+				<!-- Identify your business so that you can collect the payments. -->
+				<input type="hidden" name="business"
+					value="jaden.shiteng.wang@gmail.com">
+
+				<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+				<input type="hidden" name="cmd" value="_cart"> <input
+					type="hidden" name="add" value="1">
+
+				<!-- Specify details about the item that buyers will purchase. -->
+				<input type="hidden" name="item_name"
+					value="Littlebird Kit [VEHICLE]"> <input type="hidden"
+					name="amount" value="2.45"> <input type="hidden"
+					name="currency_code" value="USD">
+
+				<!-- Display the payment button. -->
+				<input type="image" name="submit"
+					src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+					alt="Add to Cart"> <img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+				<!--Discounts-->
+
+			</form>
+		</a> <a href="javascript:nothing()" class="storeListBox">
+			<h2>$1.45 Hunter Truck Kit [VEHICLE]</h2>
+
+			<h4>
+				1x ST6 Hunter Truck<br /> <br /> 1x HMG Box<br /> 1x Indsutrial
+				Gas Can<br /> 1x Blowtorch<br />
+
+			</h4>
+
+			<h5>
+				Cooldown: 12 hours<br /> Experience: 500
+			</h5>
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+				method="post">
+				<!-- Identify your business so that you can collect the payments. -->
+				<input type="hidden" name="business"
+					value="jaden.shiteng.wang@gmail.com">
+
+				<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+				<input type="hidden" name="cmd" value="_cart"> <input
+					type="hidden" name="add" value="1">
+
+				<!-- Specify details about the item that buyers will purchase. -->
+				<input type="hidden" name="item_name"
+					value="Hunter Truck Kit [VEHICLE]"> <input type="hidden"
+					name="amount" value="1.45"> <input type="hidden"
+					name="currency_code" value="USD">
+
+				<!-- Display the payment button. -->
+				<input type="image" name="submit"
+					src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+					alt="Add to Cart"> <img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+				<!--Discounts-->
+
+			</form>
+		</a> <a href="javascript:nothing()" class="storeListBox">
+			<h2>$1.45 F-22 Kit [VEHICLE]</h2>
+
+			<h4>
+				1x F-22<br /> <br /> 1x Rocket Pod<br /> 1x Industrial Gas Can<br />
+				1x Blowtorch<br />
+			</h4>
+
+			<h5>
+				Cooldown: 12 hours<br /> Experience: 500
+			</h5>
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+				method="post">
+				<!-- Identify your business so that you can collect the payments. -->
+				<input type="hidden" name="business"
+					value="jaden.shiteng.wang@gmail.com">
+
+				<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+				<input type="hidden" name="cmd" value="_cart"> <input
+					type="hidden" name="add" value="1">
+
+				<!-- Specify details about the item that buyers will purchase. -->
+				<input type="hidden" name="item_name" value="F-22 Kit [VEHICLE]">
+				<input type="hidden" name="amount" value="1.45"> <input
+					type="hidden" name="currency_code" value="USD">
+
+				<!-- Display the payment button. -->
+				<input type="image" name="submit"
+					src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+					alt="Add to Cart"> <img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+				<!--Discounts-->
+
+			</form>
+		</a> <a href="javascript:nothing()" class="storeListBox">
+			<h2>$1.45 Osprey Kit [VEHICLE]</h2>
+
+			<h4>
+				1x V-22 Osprey<br /> <br /> 1x M2 Box<br /> 1x Industrial Gas Can<br />
+				1x Blowtorch<br />
+			</h4>
+
+			<h5>
+				Cooldown: 12 hours<br /> Experience: 500
+			</h5>
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+				method="post">
+				<!-- Identify your business so that you can collect the payments. -->
+				<input type="hidden" name="business"
+					value="jaden.shiteng.wang@gmail.com">
+
+				<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+				<input type="hidden" name="cmd" value="_cart"> <input
+					type="hidden" name="add" value="1">
+
+				<!-- Specify details about the item that buyers will purchase. -->
+				<input type="hidden" name="item_name"
+					value="V-22 Osprey Kit [VEHICLE]"> <input type="hidden"
+					name="amount" value="1.45"> <input type="hidden"
+					name="currency_code" value="USD">
+
+				<!-- Display the payment button. -->
+				<input type="image" name="submit"
+					src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+					alt="Add to Cart"> <img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+				<!--Discounts-->
+
+			</form>
+		</a> <a href="javascript:nothing()" class="storeListBox">
+			<h2>$2.45 A-10 Warthog Kit [VEHICLE]</h2>
+
+			<h4>
+				1x A-10 Warthog<br /> <br /> 1x 30mm Box<br /> 1x Industrial Gas
+				Can<br /> 1x Blowtorch<br />
+			</h4>
+
+			<h5>
+				Cooldown: 12 hours<br /> Experience: 500
+			</h5>
+
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
+				method="post">
+				<!-- Identify your business so that you can collect the payments. -->
+				<input type="hidden" name="business"
+					value="jaden.shiteng.wang@gmail.com">
+
+				<!-- Specify a PayPal Shopping Cart Add to Cart button. -->
+				<input type="hidden" name="cmd" value="_cart"> <input
+					type="hidden" name="add" value="1">
+
+				<!-- Specify details about the item that buyers will purchase. -->
+				<input type="hidden" name="item_name"
+					value="A-10 Warthog Kit [VEHICLE]"> <input type="hidden"
+					name="amount" value="2.45"> <input type="hidden"
+					name="currency_code" value="USD">
+
+				<!-- Display the payment button. -->
+				<input type="image" name="submit"
+					src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+					alt="Add to Cart"> <img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+				<!--Discounts-->
+
+			</form>
+		</a>
+	</div>
 
-                </form>
-            </a>
-
-            <a href="javascript:nothing()" class="storeListBox">
-                <h2>$2.95 SAS Kit</h2>
-                <h4>1x MS.CMG-01 (Assault Rifle)<br /> 5x MS.CMG-01 Magazine<br />
-                    <br /> 1x MS PMG-16 (Automatic DMR)<br /> 3x MS PMG-16 Magazine<br />
-                    <br /> 1x SAS Top<br /> 1x SAS Bottom<br /> 1x SAS Hood<br /> 1x SAS Mask<br /> 1x SAS Vest<br />
-                </h4>
-
-                <h5>Cooldown: 45 Minutes<br /> Experience: 500
-                </h5>
-
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <!-- Identify your business so that you can collect the payments. -->
-                    <input type="hidden" name="business" value="jaden.shiteng.wang@gmail.com">
-
-                    <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="add" value="1">
-
-                    <!-- Specify details about the item that buyers will purchase. -->
-                    <input type="hidden" name="item_name" value="SAS Kit">
-                    <input type="hidden" name="amount" value="2.95">
-                    <input type="hidden" name="currency_code" value="USD">
-
-                    <!-- Display the payment button. -->
-                    <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                        alt="Add to Cart">
-                    <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-
-                    <!--Discounts-->
-
-                </form>
-            </a>
-
-            <a href="javascript:nothing()" class="storeListBox">
-                <h2>$0.49 SAR Kit</h2>
-                <h4>1x Sar-21 <br /> 5x Sar-21 Magazine<br />
-                    <br /> 1x Vertical Grip<br /> 1x Tactical Laser<br />
-                    <br /> 1x Spec Ops Vest
-                </h4>
-
-                <h5>Cooldown: 20 Minutes<br /> Experience: 200
-                </h5>
-
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <!-- Identify your business so that you can collect the payments. -->
-                    <input type="hidden" name="business" value="jaden.shiteng.wang@gmail.com">
-
-                    <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="add" value="1">
-
-                    <!-- Specify details about the item that buyers will purchase. -->
-                    <input type="hidden" name="item_name" value="SAR Kit">
-                    <input type="hidden" name="amount" value="0.49">
-                    <input type="hidden" name="currency_code" value="USD">
-
-                    <!-- Display the payment button. -->
-                    <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                        alt="Add to Cart">
-                    <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-
-                    <!--Discounts-->
-
-                </form>
-            </a>
-
-            <a href="javascript:nothing()" class="storeListBox">
-                <h2>$0.49 SCAR-L Kit</h2>
-                <h4>1x Scar-L <br /> 5x Scar-L Magazine<br />
-                    <br /> 1x Vertical Grip<br /> 1x Tactical Laser<br />
-                    <br /> 1x Spec Ops Vest
-                </h4>
-
-                <h5>Cooldown: 20 Minutes<br /> Experience: 200
-                </h5>
-
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <!-- Identify your business so that you can collect the payments. -->
-                    <input type="hidden" name="business" value="jaden.shiteng.wang@gmail.com">
-
-                    <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="add" value="1">
-
-                    <!-- Specify details about the item that buyers will purchase. -->
-                    <input type="hidden" name="item_name" value="Scar-L Kit">
-                    <input type="hidden" name="amount" value="0.49">
-                    <input type="hidden" name="currency_code" value="USD">
-
-                    <!-- Display the payment button. -->
-                    <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                        alt="Add to Cart">
-                    <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-
-                    <!--Discounts-->
-
-                </form>
-            </a>
-
-            <a href="javascript:nothing()" class="storeListBox">
-                <h2>$2.95 Sniper Kit</h2>
-                <h4>1x Longhunter <br /> 5x Longhunter .375 Magazine<br />
-                    <br /> 1x Longhunter Bipod <br /> 1x Longhunter Barrel <br /> 1x Longhunter Suppressor <br /> 1x
-                    Longhunter 24x Nightvision Scope<br /> 1x Rangefinder<br />
-                </h4>
-
-                <h5>Cooldown: 20 Minutes<br /> Experience: 200
-                </h5>
-
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <!-- Identify your business so that you can collect the payments. -->
-                    <input type="hidden" name="business" value="jaden.shiteng.wang@gmail.com">
-
-                    <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="add" value="1">
-
-                    <!-- Specify details about the item that buyers will purchase. -->
-                    <input type="hidden" name="item_name" value="Remington Kit">
-                    <input type="hidden" name="amount" value="0.49">
-                    <input type="hidden" name="currency_code" value="USD">
-
-                    <!-- Display the payment button. -->
-                    <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                        alt="Add to Cart">
-                    <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-
-                    <!--Discounts-->
-
-                </form>
-            </a>
-
-            <a href="javascript:nothing()" class="storeListBox">
-                <h2>$1.45 Bicopter Kit [VEHICLE]</h2>
-
-                <h4>1x SAS Hyper Bicopter<br /><br /> 1x HMG Box<br /> 1x Industiral Gas Can<br /> 1x Blowtorch<br />
-
-                </h4>
-
-                <h5>Cooldown: 12 hours<br /> Experience: 500
-                </h5>
-
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <!-- Identify your business so that you can collect the payments. -->
-                    <input type="hidden" name="business" value="jaden.shiteng.wang@gmail.com">
-
-                    <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="add" value="1">
-
-                    <!-- Specify details about the item that buyers will purchase. -->
-                    <input type="hidden" name="item_name" value="Bicopter Kit [VEHICLE]">
-                    <input type="hidden" name="amount" value="1.45">
-                    <input type="hidden" name="currency_code" value="USD">
-
-                    <!-- Display the payment button. -->
-                    <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                        alt="Add to Cart">
-                    <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-
-                    <!--Discounts-->
-
-                </form>
-            </a>
-            <a href="javascript:nothing()" class="storeListBox">
-                <h2>$2.45 Littlebird Attack Helicopter [VEHICLE]</h2>
-
-                <h4>1x Littlebird Attack Helicopter<br /><br /> 1x 20mm Ammunition<br /> 1x Indsutrial Gas Can<br /> 1x
-                    Blowtorch<br />
-
-                </h4>
-
-                <h5>Cooldown: 12 hours<br /> Experience: 500
-                </h5>
-
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <!-- Identify your business so that you can collect the payments. -->
-                    <input type="hidden" name="business" value="jaden.shiteng.wang@gmail.com">
-
-                    <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="add" value="1">
-
-                    <!-- Specify details about the item that buyers will purchase. -->
-                    <input type="hidden" name="item_name" value="Littlebird Kit [VEHICLE]">
-                    <input type="hidden" name="amount" value="2.45">
-                    <input type="hidden" name="currency_code" value="USD">
-
-                    <!-- Display the payment button. -->
-                    <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                        alt="Add to Cart">
-                    <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-
-                    <!--Discounts-->
-
-                </form>
-            </a>
-            <a href="javascript:nothing()" class="storeListBox">
-                <h2>$1.45 Hunter Truck Kit [VEHICLE]</h2>
-
-                <h4>1x ST6 Hunter Truck<br /><br /> 1x HMG Box<br /> 1x Indsutrial Gas Can<br /> 1x Blowtorch<br />
-
-                </h4>
-
-                <h5>Cooldown: 12 hours<br /> Experience: 500
-                </h5>
-
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <!-- Identify your business so that you can collect the payments. -->
-                    <input type="hidden" name="business" value="jaden.shiteng.wang@gmail.com">
-
-                    <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="add" value="1">
-
-                    <!-- Specify details about the item that buyers will purchase. -->
-                    <input type="hidden" name="item_name" value="Hunter Truck Kit [VEHICLE]">
-                    <input type="hidden" name="amount" value="1.45">
-                    <input type="hidden" name="currency_code" value="USD">
-
-                    <!-- Display the payment button. -->
-                    <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                        alt="Add to Cart">
-                    <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-
-                    <!--Discounts-->
-
-                </form>
-            </a>
-            <a href="javascript:nothing()" class="storeListBox">
-                <h2>$1.45 F-22 Kit [VEHICLE]</h2>
-
-                <h4>1x F-22<br /><br /> 1x Rocket Pod<br /> 1x Industrial Gas Can<br /> 1x Blowtorch<br />
-                </h4>
-
-                <h5>Cooldown: 12 hours<br /> Experience: 500
-                </h5>
-
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <!-- Identify your business so that you can collect the payments. -->
-                    <input type="hidden" name="business" value="jaden.shiteng.wang@gmail.com">
-
-                    <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="add" value="1">
-
-                    <!-- Specify details about the item that buyers will purchase. -->
-                    <input type="hidden" name="item_name" value="F-22 Kit [VEHICLE]">
-                    <input type="hidden" name="amount" value="1.45">
-                    <input type="hidden" name="currency_code" value="USD">
-
-                    <!-- Display the payment button. -->
-                    <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                        alt="Add to Cart">
-                    <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-
-                    <!--Discounts-->
-
-                </form>
-            </a>
-            <a href="javascript:nothing()" class="storeListBox">
-                <h2>$1.45 Osprey Kit [VEHICLE]</h2>
-
-                <h4>1x V-22 Osprey<br /><br /> 1x M2 Box<br /> 1x Industrial Gas Can<br /> 1x Blowtorch<br />
-                </h4>
-
-                <h5>Cooldown: 12 hours<br /> Experience: 500
-                </h5>
-
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <!-- Identify your business so that you can collect the payments. -->
-                    <input type="hidden" name="business" value="jaden.shiteng.wang@gmail.com">
-
-                    <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="add" value="1">
-
-                    <!-- Specify details about the item that buyers will purchase. -->
-                    <input type="hidden" name="item_name" value="V-22 Osprey Kit [VEHICLE]">
-                    <input type="hidden" name="amount" value="1.45">
-                    <input type="hidden" name="currency_code" value="USD">
-
-                    <!-- Display the payment button. -->
-                    <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                        alt="Add to Cart">
-                    <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-
-                    <!--Discounts-->
-
-                </form>
-            </a>
-            <a href="javascript:nothing()" class="storeListBox">
-                <h2>$2.45 A-10 Warthog Kit [VEHICLE]</h2>
-
-                <h4>1x A-10 Warthog<br /><br /> 1x 30mm Box<br /> 1x Industrial Gas Can<br /> 1x Blowtorch<br />
-                </h4>
-
-                <h5>Cooldown: 12 hours<br /> Experience: 500
-                </h5>
-
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <!-- Identify your business so that you can collect the payments. -->
-                    <input type="hidden" name="business" value="jaden.shiteng.wang@gmail.com">
-
-                    <!-- Specify a PayPal Shopping Cart Add to Cart button. -->
-                    <input type="hidden" name="cmd" value="_cart">
-                    <input type="hidden" name="add" value="1">
-
-                    <!-- Specify details about the item that buyers will purchase. -->
-                    <input type="hidden" name="item_name" value="A-10 Warthog Kit [VEHICLE]">
-                    <input type="hidden" name="amount" value="2.45">
-                    <input type="hidden" name="currency_code" value="USD">
-
-                    <!-- Display the payment button. -->
-                    <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                        alt="Add to Cart">
-                    <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
-
-                    <!--Discounts-->
-
-                </form>
-            </a>
-        </div>
-
-        coupons?
 </body>
 
 <script src="loadelement.js"></script>
+
+<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+		coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.maxHeight) {
+				content.style.maxHeight = null;
+			} else {
+				content.style.maxHeight = content.scrollHeight + "px";
+			}
+		});
+	}
+</script>
 
 </html>
