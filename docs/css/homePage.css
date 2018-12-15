@@ -67,13 +67,12 @@ html {
 
 .button {
     padding-top: 1.25vw;
-    font-size: 1vw;
     border: none;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 120%;
-    margin-top: 8%;
+    margin-top: 3%;
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
     /* Safari */
