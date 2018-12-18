@@ -62,8 +62,9 @@ body {text-align:center;}
 @media screen, handheld {
 .xr_app {position: absolute;}
 .xr_apb {display:block; position:absolute;}
-.xr_bgb0 {background:url('../images/138.jpg') -12px 0px repeat;}
-.xr_page0 {top:0px; width:1872px;}
+.xr_c_ChangeLog {color:#02070C;}
+.xr_bgb0 {background:url('../images/6.png') -768px 1657px repeat;}
+.xr_page0 {top:0px; width:1920px;}
 }
 @media print {
  #xr_xrii{overflow:visible !important; position: relative !important;}
