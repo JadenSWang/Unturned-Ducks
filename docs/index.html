@@ -13,8 +13,51 @@
     <script src="./libraries/jquery-3.4.1.js"></script>
 </head>
 
+<style>
+    /* chrome */
+    html::-webkit-scrollbar {
+        width: 0 !important
+    }
+
+    /* firefox */
+    html {
+        overflow: -moz-scrollbars-none;
+    }
+
+    /* ie */
+    html {
+        -ms-overflow-style: none;
+    }
+
+    .parallax-container {
+        height: 59em;
+    }
+
+    h1 {
+        margin-top: 18%;
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #paragraph {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        text-align: center;
+        color: white;
+    }
+
+    blue {
+        color: #4286F4;
+    }
+
+    .card .card-content {
+        height: 170px;
+    }
+</style>
+
 <body>
-    <nav class="blue darken-4" role="navigation">
+    <nav class="grey darken-4" role="navigation">
         <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Ducks Game Servers</a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="https://github.com/JadenSWang/UnturnedDucks">Source</a></li>
@@ -24,6 +67,58 @@
 
     <div class="parallax-container">
         <div class="parallax"><img src="images/UnturnedSummerImage.jpg"></div>
+        <h1><b>Welcome to Ducks Game Servers</b></h1>
+        <div id='paragraph'><b>Join <blue>thousands</blue> of other players on <blue>us.unturnedducks.com</blue></b>
+        </div>
+    </div>
+
+    <div class='container'>
+        <div class="row">
+            <div class="col s8 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/download.png">
+                        <span class="card-title">Our History</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Ducks has been around for over 5 Months now. What started off as a small community Unturned
+                            server has developed into something we couldn't even imagine.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s8 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/team.png">
+                        <span class="card-title">Our Staff</span>
+                    </div>
+                    <div class="card-content">
+                        <p>The Ducks staff team are friendly, dedicated, and always online to help everything run
+                            smoothly. Have any questions? Make sure to reach out!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s8 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/server.jpg">
+                        <span class="card-title">Our Servers</span>
+                    </div>
+                    <div class="card-content">
+                        <p>We have <b>Classic Modded Minecraft, Unturned Servers US#1, Unturned Servers US#2, Unturned
+                                Servers US#3, Unturned Servers US#4</b> on our network, all with fully custom builds and
+                            useful
+                            perks and features. Join today at us.unturnedducks.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/UnturnedWashington.jpg"></div>
     </div>
 </body>
 
